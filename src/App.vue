@@ -110,4 +110,13 @@ export default {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+.v-lazy-image {
+  filter: blur(20px);
+  transition: filter 0.7s;
+}
+
+.v-lazy-image-loaded {
+  filter: blur(0);
+}
 </style>
